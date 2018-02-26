@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MowandPlow</string>
+    <string name="feedbacktitle">Schedule Service</string>
+    <string name="feedbackname" hint="Enter your name">Name</string>
+    <string name="feedbackemail" hint="Enter an email">Email</string>
+    <string name="feedbacktype"></string>
+    <string name="feedbackbody">Special Instructions</string>
+    <string name="feedbackresponse">Send Receipt to email</string>
+    <string name="feedbackbutton">Submit</string>
+    <string name="feedbacktype1">Mowing</string>
+    <string name="feedbacktype2">Plowing</string>
+    <string name="pick_date">Pick Date</string>
+</resources>

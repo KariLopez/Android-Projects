@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.klopez.helloandroid.MainActivity"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="center"
+        android:src="@drawable/udactiylogo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:padding="2dp"
+        android:text="Udacity"
+        android:textColor="#03A9F4"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif"
+        android:id="@+id/name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/name"
+        android:padding="2dp"
+        android:text="2465 Latham St"
+        android:textColor="#03A9F4"
+        android:id="@+id/address"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/address"
+        android:padding="2dp"
+        android:text="Mountain View, CA 94043"
+        android:textColor="#03A9F4"
+        android:id="@+id/city"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="2dp"
+        android:text="650-555-5555"
+        android:textColor="#03A9F4"
+        android:layout_below="@+id/city"
+
+        />
+</RelativeLayout>
+
